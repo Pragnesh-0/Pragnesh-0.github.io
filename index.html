@@ -3,13 +3,415 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <div style="display:flex; justify-content:center; align-items:center;">
-        <h1 style="font-family: Arial, Helvetica, sans-serif; color:green">
-            Coming Soon
-        </h1>
-    </div>
+    <header class="top-header">
+        <h1>Pragneshsing Unoruth</h1>
+        <div class="nav-options">
+            <button class="to-footer">
+                <span>Contact</span>
+                <span data-lucide="chevron-right"></span>
+            </button>
+            <button class="darkmode-toggle">
+                <span data-lucide="sun" class="light-mode-icon"></span>
+                <span data-lucide="moon" class="dark-mode-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <article class="content-article">
+        <div class="content-viewer">
+            <div class="content-viewer-options-container">
+                <div class="content-viewer-options">
+                    <button class="content-new-tab">
+                        <span data-lucide="external-link"></span>
+                    </button>
+                    <button class="content-close">
+                        <span data-lucide="x"></span>
+                    </button>
+                </div>
+            </div>
+                
+            <div class="image-view">
+                <img src="" alt="" class="image-object">
+            </div>
+            <div class="video-view">
+                <video autoplay loop muted playsinline class="video-object">
+                </video>
+            </div>
+        </div>
+    </article>
+
+
+
+
+    <main>
+        <section>
+            <div class="status">
+                <div class="status-info">
+                    <div class="status-dot">
+                        <span data-lucide="wifi-high" class="high"></span>
+                        <span data-lucide="wifi-low" class="low"></span>
+                    </div>
+                    <h1>
+                        <span>Availability:</span>
+                        <span class="status-text"></span>
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header">
+                <div class="section-title">
+                    <h1>
+                        About Me
+                    </h1>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Profile
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div><p>I am a versatile Software Engineer with experience in building robust full stack applications and developing scalable backend systems.</p></div>
+                            <div><p>I am actively working on improving my technological competence by constantly mastering cloud workflows, database optimizations and secure coding standards.</p></div>
+                            <div><p>I am passionate about Backend Architecture, Data Engineering and Software Security.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Tech Stack
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div><p><b>Languages | </b> JavaScript, TypeScript, Python, PHP, Dart, C#</p></div>
+                            <div><p><b>Frontend | </b> React, Tailwind CSS</p></div>
+                            <div><p><b>Backend | </b> Node.js, Express, Vike (SSR), Flask (Python)</p></div>
+                            <div><p><b>App Development | </b> Flutter (Dart), Electron, Unity (C#), PySide (Python)</p></div>
+                            <div><p><b>Database & Cloud | </b> MSSQL Server, SQLite, MariaDB, Firebase Firestore</p></div>
+                            <div><p><b>Other | </b> Lua, Java, C++, .NET</p></div>
+                            <div><p><b>Exploring | </b> Rust, ASP.NET</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Interests
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div><p>I specialize in full-stack development backed by full-stack project experience with a core focus on creating robust application architecture.</p></div>
+                            <div><p>My primary interest lies in Data Engineering and systems performance. I have performed ELT (Extract, Load and Transform) on various datasets. I have also designed and integrated end-to-end data pipelines.</p></div>
+                            <div><p>I am also passionate about Backend Architecture. I have designed and deployed RESTful APIs using Flask and Express. These endpoints were also implemented to be robust and secure.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Education
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div>
+                                <p>BSc(Hons) Software Engineering <i>- <b>University of Mauritius</b></i></p>
+                                <p>Coursework Completed <i>(Graduation Pending)</i></p>
+                                <p>June 2023 - September 2026 <i>(Expected)</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="section-header">
+                <div class="section-title">
+                    <h1>
+                        Projects
+                    </h1>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Final Year Project
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div><p>Developed a dual-app ecosystem including Convolutional Neural Network Models and automated data pipelines.</p></div>
+                            <div>
+                                <p>
+                                    The main application is an air drumming tool built in Unity and the development included:
+                                </p>
+                                <p>
+                                    <b>&bull;</b> A real time hand tracking and detection pipeline using a lightweight, quantised YOLOv11n model.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> JSON data models for data storage.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Deliberate UI flows to cater to the target demography.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Cleaning, Normalising and Combining multiple unstructured datasets using Data Engineering
+                                    techniques with Python for the model.
+                                </p>
+                                <p>
+                                    <div class = "icon-text">
+                                        <span data-lucide="folder-git" class="icon"></span>
+                                        <p><a href="https://github.com/Pragnesh-0/FYP-Air-Drums-for-Kids" target="_blank"><b>View Source</b></a></p>
+                                    </div>
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>The companion application is a PySide application and the development included:</p>
+                                <p>
+                                    <b>&bull;</b> A local server to generate and serve data to the main app using Flask API endpoints.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Short lived port level rules for local networking and security.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> A fine-tuned MobileNetV2 model for audio transcription pipeline.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Creation of a robust multi-use audio to image pipeline for dataset creation and data generation.
+                                </p>
+                                <p>
+                                    <div class = "icon-text">
+                                        <span data-lucide="folder-git" class="icon"></span>
+                                        <p><a href="https://github.com/Pragnesh-0/FYP-ServerApp" target="_blank"><b>View Source</b></a></p>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-content">
+                        <button class="expand-button">
+                            <span data-lucide="move-down" class="expand-arrows"></span>
+                            <span class="button-text-content">Expand</span>
+                            <span data-lucide="move-down" class="expand-arrows"></span>
+                        </button>
+                        <div class="more">
+                            
+                            <div class="contents">
+                                <div class="content">
+                                    <div class="content-data"><img src="./public/Content/FinalYearProject/SystemArchitecture.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>System Architecture</p></div>
+                                </div>
+                                <div class="content">
+                                    <div class="content-data">
+                                        <video autoplay loop muted preload="none" playsinline src="./public/Content/FinalYearProject/playingdrums.webm"></video>
+                                    </div>
+                                    <div class="content-text"><p>Drumming Showcase</p></div>
+                                </div>
+                                <div class="content">
+                                    <div class="content-data">
+                                        <video autoplay loop muted preload="none" playsinline src="./public/Content/FinalYearProject/kitediting.webm"></video>
+                                    </div>
+                                    <div class="content-text"><p>Editing Drum Kit</p></div>
+                                </div>
+                            </div>
+
+                            <div class="contents">
+                                <div class="content">
+                                    <div class="content-data"><img src="./public//Content/FinalYearProject/ServerApp.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>PySide Application (QR code for accessibility)</p></div>
+                                </div>
+                                <div class="content">
+                                    <div class="content-data"><img src="./public//Content/FinalYearProject/ServerConnection.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>Server Connection (QR code scanning capabilities)</p></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Flutter Application
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div><p>Helped in the development of a tourist guide application with dynamic and interactive systems.</p></div>
+                            <div>
+                                <p>
+                                    My main contributions were:
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Developing a fast and reliable local-store scheduler with advanced notifications.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Designing data storage models.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Helping in solving account setup features and user data.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Developing high-performing and seamless methods for third party API integration and data fetching. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-content">
+                        <button class="expand-button">
+                            <span data-lucide="move-down" class="expand-arrows"></span>
+                            <span class="button-text-content">Expand</span>
+                            <span data-lucide="move-down" class="expand-arrows"></span>
+                        </button>
+                        <div class="more">
+                            
+                            <div class="contents">
+                                <div class="content">
+                                    <div class="content-data"><img src="./public/Content/FlutterApplication/Comments.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>Comments</p></div>
+                                </div>
+                                <div class="content">
+                                    <div class="content-data"><img src="./public/Content/FlutterApplication/Notification.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>Notification Settings</p></div>
+                                </div>
+                                <div class="content">
+                                    <div class="content-data"><img src="./public/Content/FlutterApplication/Scheduler.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>Scheduler</p></div>
+                                </div>
+                            </div>
+
+                            <div class="contents">
+                                <div class="content">
+                                    <div class="content-data"><img src="./public/Content/FlutterApplication/SchedulerCalender.png" alt="" loading="lazy"></div>
+                                    <div class="content-text"><p>Calender For Scheduler</p></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="item">
+                    <div class="main-content">
+                        <div class="item-name">
+                            <h1>
+                                Other Projects
+                            </h1>
+                        </div>
+                        <div class="item-description">
+                            <div>
+                                <p>
+                                    Intranet System (Internship):
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Developed Secure API endpoints for different user levels (Access Control List).
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Automated document population and generation.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Database Schema Design & Development.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> UI & UX design. 
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    Unity Game:
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Humanoid AI Statemachines.
+                                </p>
+                                <p>
+                                    <b>&bull;</b> Robust Gameplay Loop (Wave Based).
+                                </p>
+                                <p>
+                                    <b>&bull;</b> User Data Management & Obfuscation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="details">
+            <div class="contact-details">
+                <div class = "icon-text">
+                    <span data-lucide="mail" class="icon"></span>
+                    <p><a href="mailto:pragneshuno@gmail.com">pragneshuno@gmail.com</a></p>
+                </div>
+
+                <div class = "icon-text">
+                    <span data-lucide="globe" class="icon"></span>
+                    <p><span>GMT+4 (Mauritius)</span></p>
+                </div>
+            </div>
+            <div class="social-details">
+                <div class = "icon-text">
+                    <span data-lucide="git-branch" class="icon"></span>
+                    <p><a href="https://github.com/Pragnesh-0">GitHub</a></p>
+                </div>
+
+                <div class = "icon-text">
+                    <span data-lucide="briefcase" class="icon"></span>
+                    <p><a href="https://www.linkedin.com/in/pragneshsing-unoruth-b04a1432a">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-block">
+            <div class="icon-text">
+                <span data-lucide="copyright" class="icon"></span>
+                <p>
+                    </span><span class="year"></span> Pragneshsing Unoruth
+                </p>
+            </div>
+        </div>
+            
+    </footer>
+    <script src="./helpers.js"></script>
 </body>
+
 </html>
