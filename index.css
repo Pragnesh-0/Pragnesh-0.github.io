@@ -32,6 +32,12 @@ h1{
     color: var(--main-text-color);
 }
 
+h2{
+    font-family: Courier, monospace;
+    color: var(--main-text-color);
+    font-size: xx-large;
+}
+
 a {
     color: var(--sub-text-color);
     text-underline-offset: 4px;
@@ -239,7 +245,7 @@ main{
             }
         }
     }
-    & h1{
+    & h2{
         font-size: x-large;
         margin: 0px;
     }
@@ -258,7 +264,7 @@ main{
         border-top: 2px dashed var(--sub-text-color);
     }
 
-    & h1{
+    & h2{
         margin: 0px;
     }
 }
@@ -289,7 +295,7 @@ main{
             color: var(--main-text-color);
             padding: 10px;
             width: 20%;
-            & h1{
+            & h2{
                 font-family: monospace;
                 text-align: center;
             }
