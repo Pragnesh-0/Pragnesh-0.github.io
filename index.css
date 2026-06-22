@@ -320,6 +320,7 @@ main{
             place-items: center;
             justify-items: left;
             .item-name{
+                justify-content: center;
                 width: 90%;
                 padding-bottom: 0px;
             }
