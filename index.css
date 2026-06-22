@@ -387,7 +387,7 @@ main{
                     margin: 5px;
 
                     .content-data{
-                        width: 250px;
+                        width: 200px;
                         object-fit: cover;
                         img{
                             width: 100%;
